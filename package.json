@@ -10,11 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@heroicons/react": "^2.1.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
     "react-type-animation": "^3.2.0"
+=======
+    "aos": "^3.0.0-beta.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.1.0",
+    "react-router-dom": "^6.23.0"
+>>>>>>> dda222ceb0defd6cb5cec202ade1ea488fb31212
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
