@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
-import { TypeAnimation } from "react-type-animation";
 import pink from "../assets/images/pink.png";
+import { TypeAnimation } from "react-type-animation";
 
-function Home() {
+function Hero() {
   return (
-    <section className="bg-slate-700">
+    <section>
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
           <h1 className="text-white mb-4 sm:text-sxl lg:text-6xl text-4xl font-extrabold">
@@ -28,7 +29,6 @@ function Home() {
               repeat={Infinity}
             />
           </h1>
-
           <p className="text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl">
             I am passionate about building excellent software that improves the
             lives of those around me. I specialize in creating software for
@@ -36,7 +36,6 @@ function Home() {
             large enterprise corporations. What would you do if you had a
             software expert available at your fingertips?
           </p>
-
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-yellow-500 hover:bg-slate-200 text-white">
               Hire Me
@@ -49,13 +48,19 @@ function Home() {
           </div>
         </div>
         <div className="col-span-5 place-self-center sm:ml-14 mt-4 lg:mt-0">
-          <div className="rounded-full bg-[#cacaca] w-[300px] h-[300px]  lg:w-[400px] lg:h-[400px] relative">
-            <img src={pink} alt="" />
-          </div>
+          {/* <div className="rounded-full bg-[#cacaca] w-[300px] h-[300px]  lg:w-[400px] lg:h-[400px] relative">
+            <Image
+              src={pink}
+              alt="McMillan"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              width={250}
+              height={250}
+            />
+          </div> */}
         </div>
       </div>
     </section>
   );
 }
 
-export default Home;
+export default Hero;

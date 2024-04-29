@@ -5,7 +5,7 @@ import { About, Skills, Contact, Services, Projects, Home } from "./pages";
 
 function App() {
   return (
-    <>
+    <div className="bg-slate-700">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,7 +15,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/projects" element={<Projects />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

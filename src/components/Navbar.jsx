@@ -25,7 +25,7 @@ function Navbar() {
         <span className="font-logo text-4xl md:text-5xl lg:text-5xl">G</span>
       </Link>
 
-      <ul className="flex text-white font-semibold">
+      <ul className="flex text-white font-semibold m-auto">
         <li>
           <Link to="/about">About</Link>
         </li>
