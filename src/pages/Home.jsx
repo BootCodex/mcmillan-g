@@ -60,9 +60,12 @@ function Home() {
       <div className="bg-[#fff5f1] px-6 lg:px-16 py-10 rounded-3xl">
         <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5">
           <div className="flex flex-col gap-5 lg:gap-10">
-            <p className=" text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-medium">
-              A Unique approach <br className="lg:flex hidden" /> to learning
-              foreign <br className="lg:flex hidden" /> languages online
+            <p className=" text-xl sm:text-4xl md:text-5xl lg:text-4xl font-medium">
+              At MG Solutions, we're more than just a tech company we're your
+              strategic partner in navigating the ever-evolving landscape of
+              technology. From cutting-edge software development to innovative
+              digital solutions, we're here to empower your business and drive
+              your success forward
             </p>
             <p className="text-sm sm:text-base lg:text-lg text-gray-500">
               Learn at your own pace, with lifetime{" "}
@@ -80,18 +83,18 @@ function Home() {
 
       <div className="mx-auto flex flex-col gap-5 items-center justify-center py-20">
         <p className=" text-xl md:text-2xl lg:text-4xl font-medium text-center">
-          Get a free trial lesson today
+          Get in touch with us today
         </p>
         <p className="text-base sm:text-lg lg:text-2xl font-medium text-center">
-          Start fulfilling your language dreams with our school
+          Start fulfilling your dreams with us
         </p>
         <div className="flex flex-col lg:flex-row gap-3 lg:gap-10 items-center mt-5">
           <input
-            type="text"
-            className="px-5 py-5 rounded-full w-72 lg:w-96 outline-none bg-[#f8fafe]"
-            placeholder="enter a email"
+            type="email"
+            className="text-white px-5 py-5 rounded-full w-72 lg:w-96 outline-none bg-[#5c5e61]"
+            placeholder="Enter your Email"
           />
-          <button className="btn btn-sm lg:btn-lg bg-[#524fd5] btn-lg rounded-full border-none">
+          <button className="btn btn-sm px-10 py-5 lg:btn-lg bg-[#524fd5] btn-lg rounded-full border-none">
             Send
           </button>
         </div>
